@@ -1,0 +1,27 @@
+Database Name: akui_bird
+
+1. Tables: Karyawan
+       Columns:
+       id (int(11) NOT NULL),
+       nama (char(50) NOT NULL),
+       alamat (char(100) NOT NULL),
+       nik (char(225) NOT NULL),
+       ttl (date NOT NULL),
+       pendidikan (char(50) NOT NULL),
+       status (char(50) NOT NULL),
+       departemen (char(50) NOT NULL),
+       level_grade (int(5) NOT NULL)
+
+2. Tables: Departemen
+       Columns:
+       id (int(11) NOT NULL),
+       nama_departemen (char(50) NOT NULL),
+       level_grade (int(11) NOT NULL)
+
+3. Tables: User
+       Columns:
+       id (int(11) NOT NULL),
+       nama (char(50) NOT NULL),
+       departemen (char(50) NOT NULL),
+       level_grade (int(5) NOT NULL),
+       is_active (int(5) NOT NULL)

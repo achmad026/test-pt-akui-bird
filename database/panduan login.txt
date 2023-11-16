@@ -1,0 +1,7 @@
+LOGIN HR
+nama : Ahmad Saroni
+departemen : HR
+
+LOGIN NON HR
+nama : Budi Santoso
+departemen : TI
